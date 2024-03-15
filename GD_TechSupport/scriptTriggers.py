@@ -12,6 +12,7 @@ table_names = [os.path.splitext(file)[0] for file in table_files]
 for table_name in table_names:
     trigger_content = f"""CREATE DEFINER=`root`@`localhost` TRIGGER `{table_name}_before_insert` BEFORE INSERT ON `{table_name}` FOR EACH ROW BEGIN
     SET NEW.Id{table_name} = UUID();
+    SET NEW.Actualiza = CURRENT_TIMESTAMP
 END"""
 
     # Write the trigger content to a new .sql file in the Triggers directory

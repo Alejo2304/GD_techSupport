@@ -1,5 +1,5 @@
 CREATE TABLE client (
-    idClient INT PRIMARY KEY,
+    idClient CHAR(36) PRIMARY KEY,
     typeID INT,
     typeClient VARCHAR(50),
     firstName VARCHAR(50),

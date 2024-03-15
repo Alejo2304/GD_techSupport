@@ -1,6 +1,6 @@
 CREATE TABLE branchCompany (
-    idBranch INT,
-    idCompany INT,
+    idBranch CHAR(36),
+    idCompany CHAR(36),
     name VARCHAR(255),
     email VARCHAR(255),
     Activo BIT DEFAULT b'1',
