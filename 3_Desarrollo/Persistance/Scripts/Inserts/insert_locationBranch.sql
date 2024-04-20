@@ -1,0 +1,1 @@
+INSERT INTO locationBranch(idBranch, idCity, address, zipcode) VALUES ('c7c83f88-e832-11ee-aed0-00155d4890e0', '6fbba161-e831-11ee-aed0-00155d4890e0', 'Calle 10 # 32-10', '050022');

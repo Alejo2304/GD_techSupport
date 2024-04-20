@@ -1,0 +1,2 @@
+INSERT INTO service(typeService, description) VALUES ('Reparacion_Pantalla', 'Se realiza el cambio de pantalla del dispositivo');
+INSERT INTO service(typeService, description) VALUES ('Mantenimiento_preventivo', 'Se remueve suciedad, se cambia pasta termica y se realiza mantenimiento a los componentes internos del dispositivo');

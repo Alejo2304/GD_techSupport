@@ -1,8 +1,12 @@
 import os
 
 # Directory paths
-tables_dir = "C:\\Users\\Daniela\\Desktop\\LAOR\\GESTION_DATOS\\TechSupport\\3_Desarrollo\\Persistance\\Tables"
-triggers_dir = "C:\\Users\\Daniela\\Desktop\\LAOR\\GESTION_DATOS\\TechSupport\\3_Desarrollo\\Persistance\\Triggers"
+#tables_dir = "C:\\Users\\Daniela\\Desktop\\LAOR\\GESTION_DATOS\\30000097904\\Scripts\\Tables\\GEOGRAFIA"
+#tables_dir = "C:\\Users\\Daniela\\Desktop\\LAOR\\GESTION_DATOS\\30000097904\\Scripts\\Tables\\ORGANIZACION"
+#tables_dir = "C:\\Users\\Daniela\\Desktop\\LAOR\\GESTION_DATOS\\30000097904\\Scripts\\Tables\\SERVICIO"
+#tables_dir = "C:\\Users\\Daniela\\Desktop\\LAOR\\GESTION_DATOS\\30000097904\\Scripts\\Tables\\TRANSACCION"
+tables_dir = "C:\\Users\\Daniela\\Desktop\\LAOR\\GESTION_DATOS\\30000097904\\Scripts\\Tables\\USUARIO"
+triggers_dir = "C:\\Users\\Daniela\\Desktop\\LAOR\\GESTION_DATOS\\30000097904\\Scripts\\Triggers"
 
 # Get all table names from the Tables directory
 table_files = os.listdir(tables_dir)

@@ -1,0 +1,2 @@
+INSERT INTO employee(idBranch, typeEmployee, firstName, lastName, phone, email) VALUES ('c7c83f88-e832-11ee-aed0-00155d4890e0', 'eb94083a-f254-11ee-9abc-00155d4890e0', 'Juan', 'Orozco', '3001234567','juan.orozco@digitalstore.com');
+INSERT INTO employee(idBranch, typeEmployee, firstName, lastName, phone, email) VALUES ('c7c83f88-e832-11ee-aed0-00155d4890e0', 'eb947998-f254-11ee-9abc-00155d4890e0', 'Alejandro', 'Ramos', '3002244567','alejo.ramos@digitalstore.com');

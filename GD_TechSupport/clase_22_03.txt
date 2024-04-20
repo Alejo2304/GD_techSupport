@@ -1,0 +1,23 @@
+Hay que hacer el mapa con las colecciones.
+Hay que hacer inner join seleccionando las entidades que formen parte de un objeto en especifico
+
+Recuerda que Componentes > Objetos > Entidades > Atributos > Valores
+
+Migrar BDR to JSON
+
+SELECT 	
+		JSON_ARRAYAGG(
+			JSON_OBJECT(
+			'IdPais', country.id,
+			'NombrePais', country.name,
+			'IdDepartamento', state.IdState,
+			'NombreDepartamento', state.name,
+			'IdCiudad', City.IdCity,
+			'NombreCiudad', City.name 
+			)
+		)
+FROM country
+	INNER JOIN state
+		ON country.id = state.idCountry
+	INNER JOIN city
+		ON state.idState = city.idState;

@@ -1,0 +1,1 @@
+INSERT INTO detailReport(idReport, idServices, detail) VALUES ('cde769dc-e837-11ee-aed0-00155d4890e0', 'bd74dbda-e835-11ee-aed0-00155d4890e0', 'Al destapar equipo se encontra pasta termica seca.');
