@@ -1,6 +1,6 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `createciudad`(
 IN `P_idDepartamento` char(36),
-IN `P_nombre` varchar(255),
+IN `P_nombre` varchar(255)
 )
         LANGUAGE SQL
         NOT DETERMINISTIC

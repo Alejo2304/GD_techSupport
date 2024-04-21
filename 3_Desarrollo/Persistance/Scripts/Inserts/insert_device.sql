@@ -1,1 +1,0 @@
-INSERT INTO device(idClient, branch, model, color, detail) VALUES ('f1491b62-e833-11ee-aed0-00155d4890e0', 'Samsung', 'Galaxy S10', 'Negro', 'Celular sin rayones ni aboyaduras');

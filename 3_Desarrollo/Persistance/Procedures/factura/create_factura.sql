@@ -1,7 +1,7 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `createfactura`(
 IN `P_idUsuario` char(36),
 IN `P_idEstadoFactura` char(36),
-IN `P_fecha` datetime,
+IN `P_fecha` datetime
 )
         LANGUAGE SQL
         NOT DETERMINISTIC

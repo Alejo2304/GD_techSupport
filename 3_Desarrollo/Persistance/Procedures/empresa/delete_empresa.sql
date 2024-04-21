@@ -1,5 +1,5 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `deleteempresa`(
-            IN `P_idEmpresa` char(36),
+            IN `P_idEmpresa` char(36)
             )
             LANGUAGE SQL
             NOT DETERMINISTIC

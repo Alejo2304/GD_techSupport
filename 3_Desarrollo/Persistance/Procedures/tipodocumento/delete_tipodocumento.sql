@@ -1,5 +1,5 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `deletetipodocumento`(
-            IN `P_idTipoGenero` char(36),
+            IN `P_idTipoDocumento` char(36)
             )
             LANGUAGE SQL
             NOT DETERMINISTIC
@@ -10,7 +10,7 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `deletetipodocumento`(
 
             UPDATE tipodocumento
             SET Activo = 0
-            WHERE idTipoGenero = P_idTipoGenero
+            WHERE idTipoDocumento = P_idTipoDocumento
             AND Activo = 1;
 
             END

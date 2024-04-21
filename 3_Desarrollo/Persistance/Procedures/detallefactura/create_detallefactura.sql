@@ -2,7 +2,7 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `createdetallefactura`(
 IN `P_idFactura` char(36),
 IN `P_idDiagnostico` char(36),
 IN `P_descripcion` varchar(255),
-IN `P_subtotal` decimal(12,2),
+IN `P_subtotal` decimal(12,2)
 )
         LANGUAGE SQL
         NOT DETERMINISTIC

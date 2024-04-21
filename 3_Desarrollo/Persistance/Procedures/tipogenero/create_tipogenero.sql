@@ -1,5 +1,5 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `createtipogenero`(
-IN `P_Nombre` varchar(255),
+IN `P_Nombre` varchar(255)
 )
         LANGUAGE SQL
         NOT DETERMINISTIC

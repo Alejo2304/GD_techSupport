@@ -4,7 +4,7 @@ IN `P_idTipoEmpleado` varchar(255),
 IN `P_nombre` varchar(255),
 IN `P_apellido` varchar(255),
 IN `P_celular` varchar(255),
-IN `P_email` varchar(255),
+IN `P_email` varchar(255)
 )
         LANGUAGE SQL
         NOT DETERMINISTIC

@@ -1,5 +1,5 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `createestadofactura`(
-IN `P_estado` varchar(255),
+IN `P_estado` varchar(255)
 )
         LANGUAGE SQL
         NOT DETERMINISTIC

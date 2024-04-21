@@ -1,6 +1,5 @@
-CREATE DEFINER=`root`@`localhost` PROCEDURE `createpais`(
-IN `P_nombre` varchar(255)
-)
+
+        CREATE DEFINER=`root`@`localhost` PROCEDURE `readdetallediagnostico`()
         LANGUAGE SQL
         NOT DETERMINISTIC
         CONTAINS SQL
@@ -8,6 +7,6 @@ IN `P_nombre` varchar(255)
         COMMENT ''
         BEGIN
         
-        INSERT INTO pais(nombre)
-        VALUES(P_nombre);
+        SELECT * FROM detallediagnostico WHERE Activo = 1;
+        
         END

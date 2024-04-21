@@ -1,5 +1,5 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `deletetipodispositivo`(
-            IN `P_idTipoDispositivo` char(36),
+            IN `P_idTipoDispositivo` char(36)
             )
             LANGUAGE SQL
             NOT DETERMINISTIC

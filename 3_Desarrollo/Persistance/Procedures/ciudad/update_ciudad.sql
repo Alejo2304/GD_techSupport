@@ -1,7 +1,7 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `updateciudad`(
-            IN `P_idCiudad` char(36),
-            IN `P_idDepartamento` char(36),
-            IN `P_nombre` varchar(255),
+                IN `P_idCiudad` char(36),
+                IN `P_idDepartamento` char(36),
+                IN `P_nombre` varchar(255)
         )
         LANGUAGE SQL
         NOT DETERMINISTIC
@@ -10,8 +10,9 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `updateciudad`(
         COMMENT ''
         BEGIN
         UPDATE ciudad
-            SET idDepartamento = P_idDepartamento
-            SET nombre = P_nombre
+        SET 
+                idDepartamento = P_idDepartamento,
+                nombre = P_nombre
         WHERE idCiudad = P_idCiudad
         AND Activo = 1;
 

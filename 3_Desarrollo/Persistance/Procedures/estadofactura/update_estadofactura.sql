@@ -1,6 +1,6 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `updateestadofactura`(
-            IN `P_idEstadoFactura` char(36),
-            IN `P_estado` varchar(255),
+                IN `P_idEstadoFactura` char(36),
+                IN `P_estado` varchar(255)
         )
         LANGUAGE SQL
         NOT DETERMINISTIC
@@ -9,7 +9,8 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `updateestadofactura`(
         COMMENT ''
         BEGIN
         UPDATE estadofactura
-            SET estado = P_estado
+        SET 
+                estado = P_estado
         WHERE idEstadoFactura = P_idEstadoFactura
         AND Activo = 1;
 

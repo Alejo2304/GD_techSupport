@@ -1,5 +1,5 @@
-CREATE DEFINER=`root`@`localhost` PROCEDURE `deletedispositivo`(
-            IN `P_idDispositivo` char(36)
+CREATE DEFINER=`root`@`localhost` PROCEDURE `deletedetallediagnostico`(
+            IN `P_idDetalleDiagnostico` char(36)
             )
             LANGUAGE SQL
             NOT DETERMINISTIC
@@ -8,9 +8,9 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `deletedispositivo`(
             COMMENT ''
             BEGIN
 
-            UPDATE dispositivo
+            UPDATE detallediagnostico
             SET Activo = 0
-            WHERE idDispositivo = P_idDispositivo
+            WHERE idDetalleDiagnostico = P_idDetalleDiagnostico
             AND Activo = 1;
 
             END

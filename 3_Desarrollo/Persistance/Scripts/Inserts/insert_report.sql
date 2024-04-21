@@ -1,1 +1,0 @@
-INSERT INTO report(idDevice, idEmployee, startDate, finishDate, status) VALUES('67c9df58-e836-11ee-aed0-00155d4890e0','cf2fb44a-e834-11ee-aed0-00155d4890e0',(DATE'2024-03-21'),(DATE'2024-03-22'), 1);

@@ -1,5 +1,5 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `deletedetallefactura`(
-            IN `P_idDetalleFactura` char(36),
+            IN `P_idDetalleFactura` char(36)
             )
             LANGUAGE SQL
             NOT DETERMINISTIC

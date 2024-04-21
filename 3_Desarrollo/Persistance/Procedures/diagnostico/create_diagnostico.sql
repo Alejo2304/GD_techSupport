@@ -4,7 +4,7 @@ IN `P_idEmpleado` char(36),
 IN `P_idEstadoDiagnostico` char(36),
 IN `P_descripcion` varchar(255),
 IN `P_fechaInicio` datetime,
-IN `P_fechaFin` datetime,
+IN `P_fechaFin` datetime
 )
         LANGUAGE SQL
         NOT DETERMINISTIC

@@ -1,6 +1,6 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `updatetipodocumento`(
-            IN `P_idTipoGenero` char(36),
-            IN `P_Nombre` varchar(255),
+                IN `P_idTipoDocumento` char(36),
+                IN `P_Nombre` varchar(255)
         )
         LANGUAGE SQL
         NOT DETERMINISTIC
@@ -9,8 +9,9 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `updatetipodocumento`(
         COMMENT ''
         BEGIN
         UPDATE tipodocumento
-            SET Nombre = P_Nombre
-        WHERE idTipoGenero = P_idTipoGenero
+        SET 
+                Nombre = P_Nombre
+        WHERE idTipoDocumento = P_idTipoDocumento
         AND Activo = 1;
 
         END

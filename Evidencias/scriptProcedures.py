@@ -39,7 +39,10 @@ def create_procedure():
         create_procedure= f"""CREATE DEFINER=`root`@`localhost` PROCEDURE `create{table[0]}`(\n"""
 
         while i < (len(columns)-2):
-            create_procedure += f"""IN `P_{columns[i][0]}` {columns[i][1]},\n"""
+            if i == (len(columns)-3):
+                create_procedure += f"""IN `P_{columns[i][0]}` {columns[i][1]}\n"""
+            else:
+                create_procedure += f"""IN `P_{columns[i][0]}` {columns[i][1]},\n"""
             i += 1
 
         create_procedure += f""")
@@ -108,8 +111,12 @@ def update_procedure():
         update_procedure = f"""CREATE DEFINER=`root`@`localhost` PROCEDURE `update{table[0]}`("""
 
         while (i) < (len(columns)-2):
-            update_procedure += f"""
-            IN `P_{columns[i][0]}` {columns[i][1]},"""
+            if i == len(columns)-3:
+                update_procedure += f"""
+                IN `P_{columns[i][0]}` {columns[i][1]}"""
+            else:
+                update_procedure += f"""
+                IN `P_{columns[i][0]}` {columns[i][1]},"""
             i += 1
 
         update_procedure += f"""
@@ -120,12 +127,17 @@ def update_procedure():
         SQL SECURITY DEFINER
         COMMENT ''
         BEGIN
-        UPDATE {table[0]}"""
+        UPDATE {table[0]}
+        SET """
 
         i=1
         while i < (len(columns)-2):
-            update_procedure += f"""
-            SET {columns[i][0]} = P_{columns[i][0]}"""
+            if i == (len(columns)-3):
+                update_procedure += f"""
+                {columns[i][0]} = P_{columns[i][0]}"""
+            else:
+                update_procedure += f"""
+                {columns[i][0]} = P_{columns[i][0]},"""
             i += 1
 
         update_procedure += f"""
@@ -149,7 +161,7 @@ def delete_procedure():
         columns = cursor.fetchall()
 
         delete_procedure = f"""CREATE DEFINER=`root`@`localhost` PROCEDURE `delete{table[0]}`(
-            IN `P_{columns[0][0]}` {columns[0][1]},
+            IN `P_{columns[0][0]}` {columns[0][1]}
             )
             LANGUAGE SQL
             NOT DETERMINISTIC

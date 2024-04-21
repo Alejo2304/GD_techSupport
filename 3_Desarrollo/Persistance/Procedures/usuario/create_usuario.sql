@@ -6,7 +6,7 @@ IN `P_idTipoDocumento` char(36),
 IN `P_nombre` varchar(50),
 IN `P_apellido` varchar(50),
 IN `P_telefono` varchar(20),
-IN `P_email` varchar(100),
+IN `P_email` varchar(100)
 )
         LANGUAGE SQL
         NOT DETERMINISTIC

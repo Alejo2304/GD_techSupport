@@ -1,6 +1,6 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `updatetipogenero`(
-            IN `P_idTipoGenero` char(36),
-            IN `P_Nombre` varchar(255),
+                IN `P_idTipoGenero` char(36),
+                IN `P_Nombre` varchar(255)
         )
         LANGUAGE SQL
         NOT DETERMINISTIC
@@ -9,7 +9,8 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `updatetipogenero`(
         COMMENT ''
         BEGIN
         UPDATE tipogenero
-            SET Nombre = P_Nombre
+        SET 
+                Nombre = P_Nombre
         WHERE idTipoGenero = P_idTipoGenero
         AND Activo = 1;
 

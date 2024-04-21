@@ -3,7 +3,7 @@ IN `P_idUsuario` char(36),
 IN `P_idTipoDispositivo` char(36),
 IN `P_marca` varchar(255),
 IN `P_modelo` varchar(255),
-IN `P_color` varchar(255),
+IN `P_color` varchar(255)
 )
         LANGUAGE SQL
         NOT DETERMINISTIC

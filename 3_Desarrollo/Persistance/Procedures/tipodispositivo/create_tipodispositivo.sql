@@ -1,6 +1,6 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `createtipodispositivo`(
 IN `P_Nombre` varchar(255),
-IN `P_Descripción` varchar(255),
+IN `P_Descripción` varchar(255)
 )
         LANGUAGE SQL
         NOT DETERMINISTIC

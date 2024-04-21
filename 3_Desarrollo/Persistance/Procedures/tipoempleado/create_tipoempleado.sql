@@ -1,6 +1,6 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `createtipoempleado`(
 IN `P_cargo` varchar(255),
-IN `P_descripcion` varchar(255),
+IN `P_descripcion` varchar(255)
 )
         LANGUAGE SQL
         NOT DETERMINISTIC
