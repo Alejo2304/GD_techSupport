@@ -4,7 +4,8 @@ IN `P_idTipoEmpleado` varchar(255),
 IN `P_nombre` varchar(255),
 IN `P_apellido` varchar(255),
 IN `P_celular` varchar(255),
-IN `P_email` varchar(255)
+IN `P_email` varchar(255),
+IN `P_fechaIngreso` TIMESTAMP	
 )
         LANGUAGE SQL
         NOT DETERMINISTIC
@@ -13,6 +14,6 @@ IN `P_email` varchar(255)
         COMMENT ''
         BEGIN
         
-        INSERT INTO empleado(idSede, idTipoEmpleado, nombre, apellido, celular, email)
-        VALUES(P_idSede, P_idTipoEmpleado, P_nombre, P_apellido, P_celular, P_email);
+        INSERT INTO empleado(idSede, idTipoEmpleado, nombre, apellido, celular, email,fecha_ingreso)
+        VALUES(P_idSede, P_idTipoEmpleado, P_nombre, P_apellido, P_celular, P_email, P_fechaIngreso);
         END

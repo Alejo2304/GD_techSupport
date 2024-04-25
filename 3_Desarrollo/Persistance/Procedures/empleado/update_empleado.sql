@@ -5,7 +5,8 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `updateempleado`(
                 IN `P_nombre` varchar(255),
                 IN `P_apellido` varchar(255),
                 IN `P_celular` varchar(255),
-                IN `P_email` varchar(255)
+                IN `P_email` varchar(255),
+                IN `P_fechaIngreso` TIMESTAMP
         )
         LANGUAGE SQL
         NOT DETERMINISTIC
@@ -20,7 +21,8 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `updateempleado`(
                 nombre = P_nombre,
                 apellido = P_apellido,
                 celular = P_celular,
-                email = P_email
+                email = P_email,
+                fecha_ingreso = P_fechaIngreso
         WHERE idEmpleado = P_idEmpleado
         AND Activo = 1;
 

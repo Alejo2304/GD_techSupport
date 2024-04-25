@@ -1,0 +1,5 @@
+INSERT INTO diagnostico(idDispositivo, idEmpleado, idEstadoDiagnostico, descripcion, fechaInicio, FechaFin) VALUES ("fc21fcd6-0269-11ef-a74f-d408ab4249a8","e079276c-0107-11ef-a74f-d408ab4249a8","319bc138-0269-11ef-a74f-d408ab4249a8","Dispositivo entra a reparación por daño en la pantalla.",'2021-06-01', '2021-06-01');
+
+INSERT INTO diagnostico(idDispositivo, idEmpleado, idEstadoDiagnostico, descripcion, fechaInicio, FechaFin) VALUES ("fc21fcd6-0269-11ef-a74f-d408ab4249a8","e079276c-0107-11ef-a74f-d408ab4249a8","319bc138-0269-11ef-a74f-d408ab4249a8","Dispositivo entra a reparación por daño en la placa madre.",'2023-06-01', '2023-06-05');
+
+INSERT INTO diagnostico(idDispositivo, idEmpleado, idEstadoDiagnostico, descripcion, fechaInicio, FechaFin) VALUES ("fc2300ac-0269-11ef-a74f-d408ab4249a8","e0787892-0107-11ef-a74f-d408ab4249a8","319bc138-0269-11ef-a74f-d408ab4249a8","Dispositivo entra a reparación por daño en la MEMORIA RAM.",'2024-04-01', '2023-04-12 ');

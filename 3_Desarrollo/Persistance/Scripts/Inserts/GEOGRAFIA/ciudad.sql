@@ -1,0 +1,12 @@
+INSERT INTO ciudad(idDepartamento, nombre)  VALUES ('ae6532f6-fff5-11ee-a74f-d408ab4249a8', 'Medellin');
+INSERT INTO ciudad(idDepartamento, nombre)  VALUES ('ae6532f6-fff5-11ee-a74f-d408ab4249a8', 'Bello');
+INSERT INTO ciudad(idDepartamento, nombre)  VALUES ('ae6532f6-fff5-11ee-a74f-d408ab4249a8', 'Envigado');
+INSERT INTO ciudad(idDepartamento, nombre)  VALUES ('ae66790a-fff5-11ee-a74f-d408ab4249a8', 'Leticia');
+INSERT INTO ciudad(idDepartamento, nombre)  VALUES ('ae6708d5-fff5-11ee-a74f-d408ab4249a8', 'Tunja');
+INSERT INTO ciudad(idDepartamento, nombre)  VALUES ('ae67b8cb-fff5-11ee-a74f-d408ab4249a8', 'Cartagena');
+INSERT INTO ciudad(idDepartamento, nombre)  VALUES ('ae68bd8d-fff5-11ee-a74f-d408ab4249a8', 'Cucuta');
+INSERT INTO ciudad(idDepartamento, nombre)  VALUES ('ae696085-fff5-11ee-a74f-d408ab4249a8', 'San Cristobal');
+INSERT INTO ciudad(idDepartamento, nombre)  VALUES ('ae696085-fff5-11ee-a74f-d408ab4249a8', 'Rubio');
+INSERT INTO ciudad(idDepartamento, nombre)  VALUES ('ae69fa88-fff5-11ee-a74f-d408ab4249a8', 'Merida');
+INSERT INTO ciudad(idDepartamento, nombre)  VALUES ('ae6a83a8-fff5-11ee-a74f-d408ab4249a8', 'Trujillo');
+INSERT INTO ciudad(idDepartamento, nombre)  VALUES ('ae6b88b0-fff5-11ee-a74f-d408ab4249a8', 'Maracaibo');

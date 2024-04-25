@@ -1,5 +1,5 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `createtipousuario`(
-IN `P_cargo` varchar(255),
+IN `P_nombre` varchar(255),
 IN `P_descripcion` varchar(255)
 )
         LANGUAGE SQL
@@ -9,6 +9,6 @@ IN `P_descripcion` varchar(255)
         COMMENT ''
         BEGIN
         
-        INSERT INTO tipousuario(cargo, descripcion)
-        VALUES(P_cargo, P_descripcion);
+        INSERT INTO tipousuario(nombre, descripcion)
+        VALUES(P_nombre, P_descripcion);
         END

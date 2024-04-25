@@ -1,0 +1,3 @@
+INSERT INTO detallediagnostico(idDiagnostico, observaciones) VALUES ("30285874-026c-11ef-a74f-d408ab4249a8", "El conector de la pantalla se encontraba sulfatado y se procedió a limpiarlo.");
+INSERT INTO detallediagnostico(idDiagnostico, observaciones) VALUES ("302a126e-026c-11ef-a74f-d408ab4249a8", "Se realizó la limpieza de la placa madre y se procedió a cambiar el conector de carga.");
+INSERT INTO detallediagnostico(idDiagnostico, observaciones) VALUES ("302a126e-026c-11ef-a74f-d408ab4249a8", "Se le hizo aumento de la Memoria RAM por solicitud del usuario, se añadio un modulo de 8GB DDR4.");

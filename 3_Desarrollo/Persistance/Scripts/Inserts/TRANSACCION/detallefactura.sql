@@ -1,0 +1,3 @@
+INSERT INTO detallefactura(idFactura, idDiagnostico, descripcion, subtotal) VALUES ("19ef2d30-0274-11ef-a74f-d408ab4249a8", "30285874-026c-11ef-a74f-d408ab4249a8", "Cambio de pantalla", 100000.00);
+INSERT INTO detallefactura(idFactura, idDiagnostico, descripcion, subtotal) VALUES ("19f0da6f-0274-11ef-a74f-d408ab4249a8", "302a126e-026c-11ef-a74f-d408ab4249a8", "Reparacion placa madre", 250000.00);
+INSERT INTO detallefactura(idFactura, idDiagnostico, descripcion, subtotal) VALUES ("19f159dc-0274-11ef-a74f-d408ab4249a8", "302acdeb-026c-11ef-a74f-d408ab4249a8", "Aumento memoria RAM", 1550000.00);

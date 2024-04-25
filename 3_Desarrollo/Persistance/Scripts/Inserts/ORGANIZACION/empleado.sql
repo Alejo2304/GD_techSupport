@@ -1,0 +1,3 @@
+INSERT INTO empleado(idSede, idTipoEmpleado, nombre, apellido, email, celular) VALUES ("ee4adb39-0105-11ef-a74f-d408ab4249a8", "1010d420-00ef-11ef-a74f-d408ab4249a8", "Juan", "Perez", "jp@empresa.com", "1234567890");
+INSERT INTO empleado(idSede, idTipoEmpleado, nombre, apellido, email, celular) VALUES ("ee4c043e-0105-11ef-a74f-d408ab4249a8", "10116267-00ef-11ef-a74f-d408ab4249a8", "Alejandro", "Ramos", "ar@empresa.com", "1234567890");
+INSERT INTO empleado(idSede, idTipoEmpleado, nombre, apellido, email, celular) VALUES ("ee4d1462-0105-11ef-a74f-d408ab4249a8", "100eb74c-00ef-11ef-a74f-d408ab4249a8", "Jesus", "Moncada", "jm@empresa.com", "1234567890");

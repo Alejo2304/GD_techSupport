@@ -1,16 +1,16 @@
 SELECT 	
 		JSON_ARRAYAGG(
 			JSON_OBJECT(
-			'IdPais', country.id,
-			'NombrePais', country.name,
-			'IdDepartamento', state.IdState,
-			'NombreDepartamento', state.name,
-			'IdCiudad', City.IdCity,
-			'NombreCiudad', City.name 
+			'IdPais', pais.idPais,	
+			'NombrePais', pais.nombre,
+			'IdDepartamento', departamento.idDepartamento,
+			'NombreDepartamento', departamento.nombre,
+			'IdCiudad', ciudad.idCiudad,
+			'NombreCiudad', ciudad.nombre
 			)
 		)
-FROM country
-	INNER JOIN state
-		ON country.id = state.idCountry
-	INNER JOIN city
-		ON state.idState = city.idState;
+FROM pais
+	INNER JOIN departamento
+		ON pais.idpais = departamento.idpais
+	INNER JOIN ciudad
+		ON departamento.idDepartamento = ciudad.idDepartamento;

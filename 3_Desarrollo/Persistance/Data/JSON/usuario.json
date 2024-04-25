@@ -1,0 +1,49 @@
+
+"JSON_ARRAYAGG(\r\n\t\t\tJSON_OBJECT(\r\n\t\t\t'IdUsuario', usuario.idUsuario,\r\n            'IdTipoUsuario', tipoUsuario.idTipoUsuario,\r\n            'NombreTipoUsuario', tipoUsuario.nombre,\r\n            'DescripcionTipoUsuario', tipoUsuario.descripcion,\r\n           ":
+[
+   {
+      "IdUsuario":"1c1890ca-01ba-11ef-a74f-d408ab4249a8",
+      "EmailUsuario":"luisokj@gmail.com",
+      "IdTipoGenero":"422e0a3c-01b7-11ef-a74f-d408ab4249a8",
+      "GeneroUsuario":"Masculino",
+      "IdTipoUsuario":"0a4c6d31-01b7-11ef-a74f-d408ab4249a8",
+      "NombreUsuario":"Luis",
+      "TipoDocumento":"Cedula de Ciudadania",
+      "ApellidoUsuario":"Ojeda",
+      "IdtipoDocumento":"740c253f-01b7-11ef-a74f-d408ab4249a8",
+      "NumeroDocumento":"1090228914",
+      "telefonoUsuario":"3132269647",
+      "NombreTipoUsuario":"Persona Natural",
+      "DescripcionTipoUsuario":"Individuo  que desempeña y ejerce obligaciones a título personal."
+   },
+   {
+      "IdUsuario":"1c19df3d-01ba-11ef-a74f-d408ab4249a8",
+      "EmailUsuario":"juan_perez@gmail.com",
+      "IdTipoGenero":"422f34bc-01b7-11ef-a74f-d408ab4249a8",
+      "GeneroUsuario":"Femenino",
+      "IdTipoUsuario":"0a4c6d31-01b7-11ef-a74f-d408ab4249a8",
+      "NombreUsuario":"Juan",
+      "TipoDocumento":"Tarjeta de Identidad",
+      "ApellidoUsuario":"Perez",
+      "IdtipoDocumento":"740d148a-01b7-11ef-a74f-d408ab4249a8",
+      "NumeroDocumento":"123456789",
+      "telefonoUsuario":"3221234567",
+      "NombreTipoUsuario":"Persona Natural",
+      "DescripcionTipoUsuario":"Individuo  que desempeña y ejerce obligaciones a título personal."
+   },
+   {
+      "IdUsuario":"1c1b2f54-01ba-11ef-a74f-d408ab4249a8",
+      "EmailUsuario":"empresa@empresa.com",
+      "IdTipoGenero":"42308977-01b7-11ef-a74f-d408ab4249a8",
+      "GeneroUsuario":"Otro",
+      "IdTipoUsuario":"0a4de4c6-01b7-11ef-a74f-d408ab4249a8",
+      "NombreUsuario":"Carlos",
+      "TipoDocumento":"Cedula de Ciudadania",
+      "ApellidoUsuario":"Ramos",
+      "IdtipoDocumento":"740c253f-01b7-11ef-a74f-d408ab4249a8",
+      "NumeroDocumento":"999999999",
+      "telefonoUsuario":"123456789",
+      "NombreTipoUsuario":"Persona Juridica",
+      "DescripcionTipoUsuario":"Sociedad conformada por una o más personas, por ejemplo, una empresa."
+   }
+]
