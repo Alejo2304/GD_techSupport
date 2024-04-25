@@ -1,4 +1,4 @@
-
+{
 "JSON_ARRAYAGG(\r\n\t\t\tJSON_OBJECT(\r\n\t\t\t'IdUsuario', usuario.idUsuario,\r\n            'IdTipoUsuario', tipoUsuario.idTipoUsuario,\r\n            'NombreTipoUsuario', tipoUsuario.nombre,\r\n            'DescripcionTipoUsuario', tipoUsuario.descripcion,\r\n           ":
 [
    {
@@ -47,3 +47,4 @@
       "DescripcionTipoUsuario":"Sociedad conformada por una o más personas, por ejemplo, una empresa."
    }
 ]
+}

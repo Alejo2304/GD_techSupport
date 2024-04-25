@@ -1,4 +1,4 @@
-
+{
 "JSON_ARRAYAGG(\r\n\t\t\tJSON_OBJECT(\r\n\t\t\t'IdEmpresa', empresa.idEmpresa,\t\r\n\t\t\t'NombreEmpresa', empresa.nombre,\r\n\t\t\t'IdSede', sede.IdSede,\r\n\t\t\t'NombreSede', sede.nombre,\r\n            'EmailSede', sede.email,\r\n            'IdDireccionSede', direccion.idDireccion":
 [
    {
@@ -65,3 +65,4 @@
       "DescripcionTipoEmpleado":"Tecnico especializado en reparacion de dispositivos Apple"
    }
 ]
+}

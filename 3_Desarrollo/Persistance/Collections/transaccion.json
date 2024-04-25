@@ -1,4 +1,4 @@
-
+{
 "JSON_ARRAYAGG(\r\n\t\t\tJSON_OBJECT(\r\n\t\t\t'IdFactura', factura.idFactura,\r\n            'IdUsuario', usuario.idUsuario,\r\n            'NombreUsuario', usuario.nombre,\r\n            'ApellidoUsuario', usuario.apellido,\r\n            'DocumentoUsuario', usuario.numer":
 [
    {
@@ -44,3 +44,4 @@
       "DescripcionDiagnostico":"Dispositivo entra a reparación por daño en la MEMORIA RAM."
    }
 ]
+}
