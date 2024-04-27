@@ -1,0 +1,3 @@
+Visual Studio: mongodb+srv://luisojeda222:root@cluster0.4yls2sc.mongodb.net/
+
+Python: mongodb+srv://luisojeda222:root@cluster0.4yls2sc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

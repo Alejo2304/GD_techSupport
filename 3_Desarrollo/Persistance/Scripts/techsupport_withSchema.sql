@@ -982,10 +982,6 @@ DELIMITER ;
 /*!50003 SET collation_connection  = @saved_col_connection */ ;
 
 --
--- Dumping events for database 'dbatechsupport'
---
-
---
 -- Dumping routines for database 'dbatechsupport'
 --
 /*!50003 DROP PROCEDURE IF EXISTS `createciudad` */;
@@ -3029,4 +3025,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-04-24 15:19:33
+-- Dump completed on 2024-04-24 21:03:07
