@@ -1,47 +1,47 @@
 {
-"JSON_ARRAYAGG(\r\n\t\t\tJSON_OBJECT(\r\n\t\t\t'IdFactura', factura.idFactura,\r\n            'IdUsuario', usuario.idUsuario,\r\n            'NombreUsuario', usuario.nombre,\r\n            'ApellidoUsuario', usuario.apellido,\r\n            'DocumentoUsuario', usuario.numer":
-[
-   {
-      "IdFactura":"19ef2d30-0274-11ef-a74f-d408ab4249a8",
-      "IdUsuario":"1c1890ca-01ba-11ef-a74f-d408ab4249a8",
-      "EstadoFactura":"Pagada",
-      "IdDiagnostico":"30285874-026c-11ef-a74f-d408ab4249a8",
-      "NombreUsuario":"Luis",
-      "DetalleFactura":"Cambio de pantalla",
-      "ApellidoUsuario":"Ojeda",
-      "IdEstadpFactura":"d233d20b-0272-11ef-a74f-d408ab4249a8",
-      "SubtotalFactura":100000,
-      "DocumentoUsuario":"1090228914",
-      "IdDetalleFactura":"e992a6eb-0276-11ef-a74f-d408ab4249a8",
-      "DescripcionDiagnostico":"Dispositivo entra a reparación por daño en la pantalla."
-   },
-   {
-      "IdFactura":"19f0da6f-0274-11ef-a74f-d408ab4249a8",
-      "IdUsuario":"1c1890ca-01ba-11ef-a74f-d408ab4249a8",
-      "EstadoFactura":"Pagada",
-      "IdDiagnostico":"302a126e-026c-11ef-a74f-d408ab4249a8",
-      "NombreUsuario":"Luis",
-      "DetalleFactura":"Reparacion placa madre",
-      "ApellidoUsuario":"Ojeda",
-      "IdEstadpFactura":"d233d20b-0272-11ef-a74f-d408ab4249a8",
-      "SubtotalFactura":250000,
-      "DocumentoUsuario":"1090228914",
-      "IdDetalleFactura":"e994c94f-0276-11ef-a74f-d408ab4249a8",
-      "DescripcionDiagnostico":"Dispositivo entra a reparación por daño en la placa madre."
-   },
-   {
-      "IdFactura":"19f159dc-0274-11ef-a74f-d408ab4249a8",
-      "IdUsuario":"1c19df3d-01ba-11ef-a74f-d408ab4249a8",
-      "EstadoFactura":"Pagada",
-      "IdDiagnostico":"302acdeb-026c-11ef-a74f-d408ab4249a8",
-      "NombreUsuario":"Juan",
-      "DetalleFactura":"Aumento memoria RAM",
-      "ApellidoUsuario":"Perez",
-      "IdEstadpFactura":"d233d20b-0272-11ef-a74f-d408ab4249a8",
-      "SubtotalFactura":1550000,
-      "DocumentoUsuario":"123456789",
-      "IdDetalleFactura":"e995617d-0276-11ef-a74f-d408ab4249a8",
-      "DescripcionDiagnostico":"Dispositivo entra a reparación por daño en la MEMORIA RAM."
-   }
-]
+   "JSON_ARRAYAGG(\r\n\t\t\tJSON_OBJECT(\r\n\t\t\t'IdFactura', factura.idFactura,\r\n            'IdUsuario', usuario.idUsuario,\r\n            'NombreUsuario', usuario.nombre,\r\n            'ApellidoUsuario', usuario.apellido,\r\n            'DocumentoUsuario', usuario.numer":
+   [
+      {
+         "IdFactura":"19ef2d30-0274-11ef-a74f-d408ab4249a8",
+         "IdUsuario":"1c1890ca-01ba-11ef-a74f-d408ab4249a8",
+         "EstadoFactura":"Pagada",
+         "IdDiagnostico":"30285874-026c-11ef-a74f-d408ab4249a8",
+         "NombreUsuario":"Luis",
+         "DetalleFactura":"Cambio de pantalla",
+         "ApellidoUsuario":"Ojeda",
+         "IdEstadoFactura":"d233d20b-0272-11ef-a74f-d408ab4249a8",
+         "SubtotalFactura":100000,
+         "DocumentoUsuario":"1090228914",
+         "IdDetalleFactura":"e992a6eb-0276-11ef-a74f-d408ab4249a8",
+         "DescripcionDiagnostico":"Dispositivo entra a reparación por daño en la pantalla."
+      },
+      {
+         "IdFactura":"19f0da6f-0274-11ef-a74f-d408ab4249a8",
+         "IdUsuario":"1c1890ca-01ba-11ef-a74f-d408ab4249a8",
+         "EstadoFactura":"Pagada",
+         "IdDiagnostico":"302a126e-026c-11ef-a74f-d408ab4249a8",
+         "NombreUsuario":"Luis",
+         "DetalleFactura":"Reparacion placa madre",
+         "ApellidoUsuario":"Ojeda",
+         "IdEstadoFactura":"d233d20b-0272-11ef-a74f-d408ab4249a8",
+         "SubtotalFactura":250000,
+         "DocumentoUsuario":"1090228914",
+         "IdDetalleFactura":"e994c94f-0276-11ef-a74f-d408ab4249a8",
+         "DescripcionDiagnostico":"Dispositivo entra a reparación por daño en la placa madre."
+      },
+      {
+         "IdFactura":"19f159dc-0274-11ef-a74f-d408ab4249a8",
+         "IdUsuario":"1c19df3d-01ba-11ef-a74f-d408ab4249a8",
+         "EstadoFactura":"Pagada",
+         "IdDiagnostico":"302acdeb-026c-11ef-a74f-d408ab4249a8",
+         "NombreUsuario":"Juan",
+         "DetalleFactura":"Aumento memoria RAM",
+         "ApellidoUsuario":"Perez",
+         "IdEstadoFactura":"d233d20b-0272-11ef-a74f-d408ab4249a8",
+         "SubtotalFactura":1550000,
+         "DocumentoUsuario":"123456789",
+         "IdDetalleFactura":"e995617d-0276-11ef-a74f-d408ab4249a8",
+         "DescripcionDiagnostico":"Dispositivo entra a reparación por daño en la MEMORIA RAM."
+      }
+   ]
 }

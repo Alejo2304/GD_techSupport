@@ -4,7 +4,7 @@ SELECT
 			'IdDispositivo', dispositivo.idDispositivo,
             'IdUsuario', usuario.idUsuario,
             'NombreUsuario', usuario.nombre,
-            'idTipoDispositivo', tipoDispositivo.idTipoDispositivo,
+            'IdTipoDispositivo', tipoDispositivo.idTipoDispositivo,
             'NombreTipoDispositivo', tipoDispositivo.nombre,
             'MarcaDispositivo', dispositivo.marca,
             'ModeloDispositivo', dispositivo.modelo,

@@ -5,7 +5,7 @@ SELECT
             'IdTipoUsuario', tipoUsuario.idTipoUsuario,
             'NombreTipoUsuario', tipoUsuario.nombre,
             'DescripcionTipoUsuario', tipoUsuario.descripcion,
-            'IdtipoDocumento', tipoDocumento.idTipoDocumento,
+            'IdTipoDocumento', tipoDocumento.idTipoDocumento,
             'TipoDocumento', tipoDocumento.nombre,
             'NumeroDocumento', usuario.numeroDocumento,
             'IdTipoGenero', tipoGenero.idTipoGenero,
@@ -13,7 +13,7 @@ SELECT
             'NombreUsuario', usuario.nombre,
             'ApellidoUsuario', usuario.apellido,
             'EmailUsuario', usuario.email,
-            'telefonoUsuario', usuario.telefono
+            'TelefonoUsuario', usuario.telefono
 			)
 		)
 FROM usuario

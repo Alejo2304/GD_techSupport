@@ -10,7 +10,7 @@ SELECT
             'IdCiudadSede', direccion.idCiudad,
             'NombreCiudad', ciudad.nombre,
             'DireccionSede', direccion.direccion,
-			'codigoPostal', direccion.zipcode,
+			'CodigoPostal', direccion.zipcode,
             'IdEmpleado', empleado.idEmpleado,
             'NombreEmpleado', empleado.nombre,
             'IdTipoEmpleado', tipoEmpleado.idTipoEmpleado,

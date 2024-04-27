@@ -6,7 +6,7 @@ SELECT
             'NombreUsuario', usuario.nombre,
             'ApellidoUsuario', usuario.apellido,
             'DocumentoUsuario', usuario.numeroDocumento,
-            'IdEstadpFactura', estadoFactura.idEstadoFactura,
+            'IdEstadoFactura', estadoFactura.idEstadoFactura,
             'EstadoFactura', estadoFactura.estado,
             'IdDetalleFactura', detalleFactura.idDetalleFactura,
             'IdDiagnostico', diagnostico.idDiagnostico,

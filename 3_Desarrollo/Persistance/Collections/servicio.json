@@ -1,5 +1,5 @@
 {
-"JSON_ARRAYAGG(\r\n\t\t\tJSON_OBJECT(\r\n\t\t\t'IdDispositivo', dispositivo.idDispositivo,\r\n            'IdUsuario', usuario.idUsuario,\r\n            'NombreUsuario', usuario.nombre,\r\n            'idTipoDispositivo', tipoDispositivo.idTipoDispositivo,\r\n            'N":
+   "JSON_ARRAYAGG(\r\n\t\t\tJSON_OBJECT(\r\n\t\t\t'IdDispositivo', dispositivo.idDispositivo,\r\n            'IdUsuario', usuario.idUsuario,\r\n            'NombreUsuario', usuario.nombre,\r\n            'IdTipoDispositivo', tipoDispositivo.idTipoDispositivo,\r\n            'N":
    [
       {
          "IdUsuario":"1c19df3d-01ba-11ef-a74f-d408ab4249a8",
@@ -9,8 +9,8 @@
          "ColorDispositivo":"Azul",
          "MarcaDispositivo":"SAMSUNG",
          "EstadoDiagnostico":"Entregado",
+         "IdTipoDispositivo":"f3b5d91f-0268-11ef-a74f-d408ab4249a8",
          "ModeloDispositivo":"GALAXY 10",
-         "idTipoDispositivo":"f3b5d91f-0268-11ef-a74f-d408ab4249a8",
          "FechaFinDiagnostico":"2021-06-01 00:00:00.000000",
          "IdEstadoDiagnostico":"319bc138-0269-11ef-a74f-d408ab4249a8",
          "IdDetalleDiagnostico":"31165084-0270-11ef-a74f-d408ab4249a8",
@@ -30,8 +30,8 @@
          "ColorDispositivo":"Azul",
          "MarcaDispositivo":"SAMSUNG",
          "EstadoDiagnostico":"Entregado",
+         "IdTipoDispositivo":"f3b5d91f-0268-11ef-a74f-d408ab4249a8",
          "ModeloDispositivo":"GALAXY 10",
-         "idTipoDispositivo":"f3b5d91f-0268-11ef-a74f-d408ab4249a8",
          "FechaFinDiagnostico":"2023-06-05 00:00:00.000000",
          "IdEstadoDiagnostico":"319bc138-0269-11ef-a74f-d408ab4249a8",
          "IdDetalleDiagnostico":"3117e847-0270-11ef-a74f-d408ab4249a8",
@@ -51,8 +51,8 @@
          "ColorDispositivo":"Azul",
          "MarcaDispositivo":"SAMSUNG",
          "EstadoDiagnostico":"Entregado",
+         "IdTipoDispositivo":"f3b5d91f-0268-11ef-a74f-d408ab4249a8",
          "ModeloDispositivo":"GALAXY 10",
-         "idTipoDispositivo":"f3b5d91f-0268-11ef-a74f-d408ab4249a8",
          "FechaFinDiagnostico":"2021-06-01 00:00:00.000000",
          "IdEstadoDiagnostico":"319bc138-0269-11ef-a74f-d408ab4249a8",
          "IdDetalleDiagnostico":"37ddafe3-0270-11ef-a74f-d408ab4249a8",
@@ -72,8 +72,8 @@
          "ColorDispositivo":"Azul",
          "MarcaDispositivo":"SAMSUNG",
          "EstadoDiagnostico":"Entregado",
+         "IdTipoDispositivo":"f3b5d91f-0268-11ef-a74f-d408ab4249a8",
          "ModeloDispositivo":"GALAXY 10",
-         "idTipoDispositivo":"f3b5d91f-0268-11ef-a74f-d408ab4249a8",
          "FechaFinDiagnostico":"2023-06-05 00:00:00.000000",
          "IdEstadoDiagnostico":"319bc138-0269-11ef-a74f-d408ab4249a8",
          "IdDetalleDiagnostico":"37dea82e-0270-11ef-a74f-d408ab4249a8",
@@ -93,8 +93,8 @@
          "ColorDispositivo":"Azul",
          "MarcaDispositivo":"SAMSUNG",
          "EstadoDiagnostico":"Entregado",
+         "IdTipoDispositivo":"f3b5d91f-0268-11ef-a74f-d408ab4249a8",
          "ModeloDispositivo":"GALAXY 10",
-         "idTipoDispositivo":"f3b5d91f-0268-11ef-a74f-d408ab4249a8",
          "FechaFinDiagnostico":"2023-06-05 00:00:00.000000",
          "IdEstadoDiagnostico":"319bc138-0269-11ef-a74f-d408ab4249a8",
          "IdDetalleDiagnostico":"37df07be-0270-11ef-a74f-d408ab4249a8",

@@ -1,1 +1,1 @@
-strConnection = "mongodb+srv://luisojeda222:root@cluster0.4yls2sc.mongodb.net/dba_tech_support?retryWrites=true&w=majority&appName=Cluster0"
+strConnection =  "mongodb+srv://luisojeda222:root@cluster0.4yls2sc.mongodb.net/dba_tech_support?retryWrites=true&w=majority"
