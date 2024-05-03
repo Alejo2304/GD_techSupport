@@ -1,5 +1,6 @@
 {
-"JSON_ARRAYAGG(\r\n\t\t\tJSON_OBJECT(\r\n\t\t\t'IdPais', pais.idPais,\t\r\n\t\t\t'NombrePais', pais.nombre,\r\n\t\t\t'IdDepartamento', departamento.idDepartamento,\r\n\t\t\t'NombreDepartamento', departamento.nombre,\r\n\t\t\t'IdCiudad', ciudad.idCiudad,\r\n\t\t\t'NombreCiudad', ciudad.nombre":[
+"JSON_ARRAYAGG(\r\n\t\t\tJSON_OBJECT(\r\n\t\t\t'IdPais', pais.idPais,\t\r\n\t\t\t'NombrePais', pais.nombre,\r\n\t\t\t'IdDepartamento', departamento.idDepartamento,\r\n\t\t\t'NombreDepartamento', departamento.nombre,\r\n\t\t\t'IdCiudad', ciudad.idCiudad,\r\n\t\t\t'NombreCiudad', ciudad.nombre":
+[
    {
       "IdPais":"1e62c82e-fff1-11ee-a74f-d408ab4249a8",
       "IdCiudad":"61ecd3f1-fffa-11ee-a74f-d408ab4249a8",

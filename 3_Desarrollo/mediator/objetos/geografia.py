@@ -19,5 +19,5 @@ class GeografiaModelo(BaseModel):
             "IdCiudad": str(geografia['IdCiudad']),
             "NombrePais": str(geografia['NombrePais']),
             "NombreDepartamento": str(geografia['NombreDepartamento']),
-            "NombreCiudad": str(geografia['NombreCiudad']),
+            "NombreCiudad": str(geografia['NombreCiudad'])
         }

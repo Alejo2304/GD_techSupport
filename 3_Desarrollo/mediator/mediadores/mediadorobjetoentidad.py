@@ -1,12 +1,22 @@
 # mediadorobjetoentidad:
+#IMPORT LIBRARIES
 from fastapi import FastAPI
+import mysql.connector
+import pymongo
+
+#IMPORT MODELS
 from objetos.geografia import GeografiaModelo
 from objetos.organizacion import OrganizacionModelo
 from objetos.servicio import ServicioModelo
 from objetos.transaccion import TransaccionModelo
 from objetos.usuario import UsuarioModelo
-from credenciales import strConnection
-import pymongo
+
+#IMPORT ENTITIES
+from entidades.pais import PaisModelo
+
+#IMPORT CREDENTIALS DB
+from credenciales import *
+
 
 app: FastAPI = FastAPI(
 title="Mediador Objetos y Entidades",
@@ -17,6 +27,7 @@ description="USBGD202401"
 
 # Objetos:
 
+# -----GEOGRAFIA-----
 @app.post(
     "/consultargeografia",
     response_model=list,
@@ -41,6 +52,7 @@ async def consultar_geografia(geografiamodelo: GeografiaModelo) -> list:
         client.close()
     return results
 
+# -----ORGANIZACION-----
 @app.post(
     "/consultarorganizacion",
     response_model=list,
@@ -66,6 +78,7 @@ async def consultar_organizacion(organizacionmodelo: OrganizacionModelo) -> list
         client.close()
     return results
 
+# -----SERVICIO-----
 @app.post(
     "/consultarservicio",
     response_model=list,
@@ -91,7 +104,7 @@ async def consultar_servicio(serviciomodelo: ServicioModelo) -> list:
         client.close()
     return results
 
-
+#-----TRANSACCION-----
 @app.post(
     "/consultartransaccion",
     response_model=list,
@@ -117,6 +130,7 @@ async def consultar_transaccion(transaccionmodelo: TransaccionModelo) -> list:
         client.close()
     return results
 
+#-----USUARIO-----
 @app.post(
     "/consultarusuario",
     response_model=list,
@@ -144,5 +158,36 @@ async def consultar_usuario(usuariomodelo: UsuarioModelo) -> list:
 #######################################################
 
 # Entidades:
+
+# -----PAIS-----
+@app.post(
+    "/consultarpais",
+    response_model=list,
+    summary="Consultar Pais",
+    description="Consultar Entidad Pais",
+    tags=["Pais"]
+)
+async def consultar_pais(paismodelo: PaisModelo) -> list:
+    results = []
+    db = mysql.connector.connect(
+        host=host,
+        user=user,
+        password=password,
+        database=database
+    )
+    try:
+        cursor = db.cursor()
+        cursor.callproc("readpais")
+        for item in list(cursor.stored_results()):
+            results = item.fetchall()
+        db.commit()
+        cursor.close()
+    except Exception as ex:
+        raise ValueError(ex)
+    finally:
+        db.disconnect()
+    return results
+
+
 
 #######################################################

@@ -23,13 +23,13 @@ SELECT
             'FechaIngreso', empleado.fecha_Ingreso
 			)
 		)
-FROM (((empresa
+FROM empresa
 	INNER JOIN sede
-		ON empresa.idEmpresa = sede.idEmpresa)
+		ON empresa.idEmpresa = sede.idEmpresa
 	INNER JOIN direccion
-		ON sede.idDireccion = direccion.idDireccion)
+		ON sede.idDireccion = direccion.idDireccion
     INNER JOIN empleado
-        ON sede.idSede = empleado.idSede)
+        ON sede.idSede = empleado.idSede
     INNER JOIN tipoEmpleado
         ON empleado.idTipoEmpleado = tipoEmpleado.idTipoEmpleado
     INNER JOIN ciudad
