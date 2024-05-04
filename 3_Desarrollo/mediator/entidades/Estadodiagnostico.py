@@ -3,9 +3,8 @@
 from pydantic import BaseModel
 from datetime import datetime
 
-class DepartamentoModelo(BaseModel):
-    idDepartamento: str
-    idPais: str
-    nombre: str
+class EstadodiagnosticoModelo(BaseModel):
+    idEstadoDiagnostico: str
+    descripcion: str
     Activo: bool
     Actualiza: datetime

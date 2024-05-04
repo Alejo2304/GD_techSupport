@@ -1,10 +1,10 @@
-#pais
 
+#departamento
 from pydantic import BaseModel
 from datetime import datetime
 
 class PaisModelo(BaseModel):
-    id_pais: int
+    idPais: str
     nombre: str
-    activo: bool
-    actualiza: datetime
+    Activo: bool
+    Actualiza: datetime

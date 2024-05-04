@@ -3,9 +3,10 @@
 from pydantic import BaseModel
 from datetime import datetime
 
-class DepartamentoModelo(BaseModel):
-    idDepartamento: str
-    idPais: str
-    nombre: str
+class DireccionModelo(BaseModel):
+    idDireccion: str
+    idCiudad: str
+    direccion: str
+    zipCode: str
     Activo: bool
     Actualiza: datetime
