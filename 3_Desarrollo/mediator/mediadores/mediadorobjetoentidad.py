@@ -31,7 +31,7 @@ from entidades.Tipodocumento import TipodocumentoModelo
 from entidades.Tipoempleado import TipoempleadoModelo
 from entidades.Tipogenero import TipogeneroModelo
 from entidades.Tipousuario import TipousuarioModelo
-from entidades.Usuario import UsuarioModelo
+from entidades.Usuario import UsuarioModelo as UsuarioModeloEntidad
 
 
 #IMPORT CREDENTIALS DB
@@ -759,7 +759,7 @@ async def consultar_tipousuario(tipousuariomodelo: TipousuarioModelo) -> list:
     description="Consultar Entidad Usuario",
     tags=["Entidades"]
 )
-async def consultar_usuario(usuariomodelo: UsuarioModelo) -> list:
+async def consultar_usuario(usuariomodelo: UsuarioModeloEntidad) -> list:
     results = []
     db = mysql.connector.connect(
         host=host,
