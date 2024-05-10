@@ -1,7 +1,7 @@
 import mysql.connector, os
 from controlDatabase import *
 #pip install mysql-connector-python
-path = "3_Desarrollo\Persistance\Procedures"
+path = "3_Desarrollo\\Persistance\\Procedures"
 tables = []
 #Database connection data
 cnx = mysql.connector.connect(
@@ -100,6 +100,26 @@ def read_procedure():
             f.write(read_procedure)
     return "ok"
 
+def read_id_procedure():
+    for table in tables:
+        read_procedure = f"""
+        CREATE DEFINER=`root`@`localhost` PROCEDURE `read{table[0]}id`(IN `P_id{table[0]}` CHAR (36))
+        LANGUAGE SQL
+        NOT DETERMINISTIC
+        CONTAINS SQL
+        SQL SECURITY DEFINER
+        COMMENT ''
+        BEGIN
+        
+        SELECT * FROM {table[0]}
+        WHERE id{table[0]} = P_id{table[0]}
+        AND Activo = 1;
+        
+        END"""
+
+        with open(os.path.join(path, table[0], f"read_{table[0]}Id.sql"), 'w') as f:
+            f.write(read_procedure)
+    return "ok"
 def update_procedure():
     for table in tables:
         columns, i = [], 0
@@ -182,6 +202,7 @@ def delete_procedure():
     
 create_procedure()
 read_procedure()
+read_id_procedure()
 update_procedure()
 delete_procedure()
 

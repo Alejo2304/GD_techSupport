@@ -1,8 +1,20 @@
+#Comentar la linea de abajo si vas a escribir los datos de conexión directamente en el script
 from controlDatabase import *
+#pip install mysql-connector-python
 import mysql.connector
 import os
 
+'''
+# Conexión a la base de datos - Reemplazar valores con tu DB
+host="
+user=""
+password=""
+database="" 
+'''
+
+#Ruta de la carpeta donde vas a guardar las entidades
 ruta = "C:\\Users\\Daniela\\Desktop\\LAOR\\GESTION_DATOS\\3_CORTE\\TechSupport\\3_Desarrollo\\mediator\\entidades"
+#Ruta de la carpeta donde esta guardado el archivo objetoentidadrelacion.py
 ruta2 = "C:\\Users\\Daniela\\Desktop\\LAOR\\GESTION_DATOS\\3_CORTE\\TechSupport\\3_Desarrollo\\mediator\\mediadores"
 
 def dataTypeConverter(DataTypeSQL):
